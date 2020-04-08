@@ -1,0 +1,6 @@
+---
+ - name: Set the owner for index.html and system facts
+   win_owner:
+     path: '{{ diskaddress }}'
+     user: '{{ domain_user_owner }}'
+     recurse: yes

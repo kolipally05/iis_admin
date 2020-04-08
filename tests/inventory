@@ -1,0 +1,10 @@
+[windows]
+40.117.197.36
+
+[windows:vars]
+ansible_user=node1
+ansible_password=windows@2019
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore 
+
+

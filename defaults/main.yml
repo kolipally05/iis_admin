@@ -1,0 +1,17 @@
+---
+
+# defaults file for iis-featuresad_username
+
+ad_firstname: priyanka
+ad_surname: koli
+passwd_user: Test@12345
+user_required: present
+domain_admin_password: windows@2019
+domain_server_fqdn: node1.windows.com
+group_to_add: Administrators
+ad_username: pinky
+domain_admin_name: windows\node1
+domain_user_name: windows\pinky
+domain_user_owner: windows\iisadmin
+diskaddress: C:\inetpub\wwwroot\   
+
